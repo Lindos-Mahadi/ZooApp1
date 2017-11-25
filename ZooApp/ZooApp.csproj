@@ -171,6 +171,10 @@
     <Compile Include="Migrations\201711251226004_AnimalFood.Designer.cs">
       <DependentUpon>201711251226004_AnimalFood.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711251253062_AnimalFood1.cs" />
+    <Compile Include="Migrations\201711251253062_AnimalFood1.Designer.cs">
+      <DependentUpon>201711251253062_AnimalFood1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Animal.cs" />
     <Compile Include="Models\AnimalService.cs" />
@@ -245,6 +249,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201711251226004_AnimalFood.resx">
       <DependentUpon>201711251226004_AnimalFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711251253062_AnimalFood1.resx">
+      <DependentUpon>201711251253062_AnimalFood1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
