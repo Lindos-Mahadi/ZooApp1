@@ -21,8 +21,6 @@ namespace ZooApp.Models
                 {
                     Id = animal.Id,
                     Origin = animal.Origin,
-                    Quantity = animal.Quantity,
-                    Food = animal.Food,
                     Name = animal.Name
                 };
                 viewAnimals.Add(viewAnimal);
@@ -38,8 +36,6 @@ namespace ZooApp.Models
             {
                 Id = animal.Id,
                 Origin = animal.Origin,
-                Quantity = animal.Quantity,
-                Food = animal.Food,
                 Name = animal.Name
             };
         }
